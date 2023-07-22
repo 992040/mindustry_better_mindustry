@@ -1,0 +1,12 @@
+{
+	"name": "Nickel wall",
+	"description": "Protects structures from enemy projectiles",
+	"type": "Wall",
+	"health": 450,
+	"size": 1,
+	"requirements": [
+		{ "item": "nickel", "amount": 6 }
+	],
+	"category": "defense",
+	"research": "titanium-wall"
+}

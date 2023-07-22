@@ -1,0 +1,12 @@
+{
+	"name": "Large steel wall",
+	"description": "Pretty useless wall compared to titanium walls",
+	"type": "Wall",
+	"health": 2000,
+	"size": 2,
+	"requirements": [
+		{ "item": "steel", "amount": 24 }
+	],
+	"category": "defense",
+	"research": "steel-wall"
+}

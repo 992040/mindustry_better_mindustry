@@ -1,0 +1,12 @@
+{
+	"name": "Lead wall",
+	"description": "Protects structures from enemy projectiles",
+	"type": "Wall",
+	"health": 280,
+	"size": 1,
+	"requirements": [
+		{ "item": "lead", "amount": 6 }
+	],
+	"category": "defense",
+	"research": "copper-wall"
+}

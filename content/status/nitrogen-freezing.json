@@ -1,0 +1,10 @@
+{   
+	"name": "nitrogen-feezing",
+	"healthMultiplier": 0.7,
+	"speedMultiplier": 0.4,
+	"reloadMultiplier": 0.8,
+	"buildSpeedMultiplier": 0.5,
+	"affinities": ["blasted"],
+	"opposites": ["melting","burning"],
+	"transitionDamage": 30
+}

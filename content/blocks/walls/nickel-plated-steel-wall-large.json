@@ -1,0 +1,12 @@
+{
+	"name": "Large nickel plated steel wall",
+	"description": "Protects structures from enemy projectiles",
+	"type": "Wall",
+	"health": 6000,
+	"size": 2,
+	"requirements": [
+		{ "item": "nickel-plated-steel", "amount": 24 }
+	],
+	"category": "defense",
+	"research": "nickel-plated-steel-wall"
+}

@@ -1,0 +1,47 @@
+"ammoTypes": {
+  "water": {
+    "type": "LiquidBulletType",
+    "damage": 0.2,
+    "lifetime": 57,
+    "knockback": 1.7,
+    "liquid": "water",
+    "status": "wet",
+    "statusDuration": 240
+  },
+  "slag": {
+    "type": "LiquidBulletType",
+    "damage": 4.75,
+    "lifetime": 57,
+    "knockback": 1.3,
+    "liquid": "slag",
+    "status": "melting",
+    "statusDuration": 240
+  },
+    "oil": {
+    "type": "LiquidBulletType",
+    "damage": 0.2,
+    "lifetime": 57,
+    "knockback": 1.3,
+    "liquid": "oil",
+    "status": "tarred",
+    "statusDuration": 240
+  },
+  "cryofluid": {
+    "type": "LiquidBulletType",
+    "damage": 0.2,
+    "lifetime": 57,
+    "knockback": 1.3,
+    "liquid": "cryofluid",
+    "status": "freezing",
+    "statusDuration": 240
+  },
+  "liquid-nitrogen": {
+    "type": "LiquidBulletType",
+    "damage": 1,
+    "lifetime": 57,
+    "knockback": 1.3,
+    "liquid": "liquid-nitrogen",
+    "status": "nitrogen-freezing",
+    "statusDuration": 240
+  }
+}

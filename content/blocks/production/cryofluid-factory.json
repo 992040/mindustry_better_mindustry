@@ -1,0 +1,49 @@
+{
+    "type": "GenericCrafter",
+    "name": "Cryofluid factory",
+    "description": "Large cryofluid mixer. Mixes water and fine titanium powder to produce cryofluid",
+    "size": 4,
+    "health": 500,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 60,
+    "itemCapacity": 20,
+    "liquidCapacity": 60,
+    "consumes": {
+        "power": 9,
+        "items": {
+            "items": [
+                { "item": "titanium", "amount": 3 }
+            ]
+        },
+        "liquids":{
+            "liquids": [
+                { "liquid": "water", "amount": 1.2 }
+            ]
+        }
+    },
+    "requirements":[
+        { "item": "nickel-plated-steel", "amount": 100 },
+        { "item": "graphite", "amount": 115 },
+        { "item": "silicon", "amount": 265 },
+        { "item": "metaglass", "amount": 300 },
+        { "item": "titanium", "amount": 50 }
+    ],
+    "outputLiquid": {
+     "liquid": "cryofluid", 
+     "amount": 1.2
+    },
+    "category": "crafting",
+    "research": "cryofluid-mixer",
+    "drawer" : {
+        "type": "drawMulti",
+        "drawers": [
+            {"type":"drawRegion", "suffix":"-bottom"}, 
+            {"type": "drawLiquidTile","drawLiquid": "water" },
+            {"type": "drawLiquidTile","drawLiquid": "cryofluid" },
+            {"type":"drawDefault"}
+        ]
+    }
+
+}

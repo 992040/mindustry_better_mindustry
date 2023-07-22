@@ -1,0 +1,72 @@
+{
+	"type": "PowerTurret",
+	"size": 2,
+	"name": "AA-Lancer",
+	"description": "Charges and fires powerful beams of energy at air targets.",
+	"targetAir": true,
+	"targetGround": false,
+	"shoot":{
+		"firstShotDelay": 40
+	},
+	"shootType": {
+		"type": "LaserBulletType",
+		"reload": 100,
+		"damage": 140,
+		"chargeEffect": {
+			"type": "multiEffect",
+			"effects": [
+				"lancerLaserCharge",
+				"lancerLaserChargeBegin"
+			]
+		},
+		"buildingDamageMultiplier": 0.25,
+        "hitEffect": "hitLancer",
+        "hitSize": 4,
+        "lifetime": 16,
+        "drawSize": 400,
+        "collidesAir": true,
+        "length": 173,
+        "ammoMultiplier": 1,
+        "pierceCap": 4,
+        "shootEffect": "lancerLaserShoot",
+    	"smokeEffect": "lancerLaserShootSmoke",
+		"firstShotDelay": 40,
+		"shotDelay": 40,
+	},
+
+	"health": 1120,
+	"inaccuracy": 0,
+	"chargeTime": 80,
+    "chargeMaxDelay": 140,
+    "chargeEffects": 9,
+	"recoil": 2,
+
+
+	"powerUse": 6,
+    "shake": 2,
+	"reload": 80,
+	"shootCone": 80,
+	"rotateSpeed": 50,
+	"shots": 1,
+	"range": 165,
+	"burstSpacing": 6,
+	"damage": 140,
+	"moveWhileCharging": false,
+	"accurateDelay": false,
+	"requirements": [
+		{ "item": "iron", "amount": 60 },
+		{ "item": "lead", "amount": 70 },
+		{ "item": "silicon", "amount": 60 },
+		{ "item": "titanium", "amount": 30 }
+	],
+	"category": "turret",
+	"shootSound": "laser",
+	"research": "lancer",
+	"liquidBoostIntesity": 1,
+    "consumes": {
+    	"power": 6,
+    	"coolant": {
+      		"amount": 0.2
+    	}
+    }
+}

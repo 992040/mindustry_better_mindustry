@@ -1,0 +1,44 @@
+{
+    "type": "GenericCrafter",
+    "name": "Steel smelter",
+    "description": "Plates steel with nickel. Uses coal as an additional heat source.",
+    "size": 3,
+    "health": 400,
+    "hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+    "craftTime": 80,
+    "itemCapacity": 20,
+    "consumes": {
+        "power": 3,
+        "items": {
+            "items": [
+                { "item": "nickel", "amount": 2 },
+                { "item": "steel", "amount": 2 },
+                { "item": "coal", "amount": 1 }
+            ],
+        }
+    },
+    "requirements":[
+        { "item": "silicon", "amount": 70 },
+        { "item": "thorium", "amount": 100 },
+        { "item": "steel", "amount": 75 },
+        { "item": "metaglass", "amount": 150 },
+        { "item": "nickel", "amount": 115 }
+    ],
+    "outputItem": {
+     "item": "nickel-plated-steel", 
+     "amount": 1
+    },
+    "category": "crafting",
+    "research": "steel-smelter",
+    "craftEffect": "smeltsmoke",
+    "ambientSound": "smelter",
+    "drawer" : {
+        "type": "drawMulti",
+        "drawers": [
+            {"type":"drawDefault"}, 
+            {"type":"drawFlame","flameColor":"ffb600","lightRadius":"90"}
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+{
+	"name": "Steel wall",
+	"description": "Pretty useless wall compared to titanium walls",
+	"type": "Wall",
+	"health": 500,
+	"size": 1,
+	"requirements": [
+		{ "item": "steel", "amount": 6 }
+	],
+	"category": "defense",
+	"research": "iron-wall"
+}

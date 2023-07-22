@@ -1,0 +1,42 @@
+{
+    "type": "GenericCrafter",
+    "name": "Nitrogen factory",
+    "description": "Separates nitrogen from air, presses it to it's liquid state and then cools it to very low temperatures. Requires cryofluid to cool presses.",
+    "size": 3,
+    "health": 430,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": false,
+    "craftTime": 60,
+    "liquidCapacity": 60,
+    "consumes": {
+        "power": 25,
+        "liquids":{
+            "liquids": [
+                { "liquid": "cryofluid", "amount": 1 }
+            ]
+        }
+    },
+    "requirements":[
+        { "item": "nickel-plated-steel", "amount": 200 },
+        { "item": "surge-alloy", "amount": 175 },
+        { "item": "silicon", "amount": 335 },
+        { "item": "metaglass", "amount": 545 },
+        { "item": "thorium", "amount": 125 }
+    ],
+    "outputLiquid": {
+     "liquid": "liquid-nitrogen", 
+     "amount": 0.3
+    },
+    "category": "crafting",
+    "research": "cryofluid-factory",
+    "drawer" : {
+        "type": "drawMulti",
+        "drawers": [
+            {"type":"drawRegion", "suffix":"-bottom"}, 
+            {"type": "drawLiquidTile","drawLiquid": "cryofluid" },
+            {"type": "drawLiquidTile","drawLiquid": "liquid-nitrogen" },
+            {"type":"drawDefault"}
+        ]
+    }
+}

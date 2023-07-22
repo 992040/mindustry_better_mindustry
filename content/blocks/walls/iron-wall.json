@@ -1,0 +1,12 @@
+{
+	"name": "Iron wall",
+	"description": "Protects structures from enemy projectiles",
+	"type": "Wall",
+	"health": 350,
+	"size": 1,
+	"requirements": [
+		{ "item": "iron", "amount": 6 }
+	],
+	"category": "defense",
+	"research": "copper-wall"
+}

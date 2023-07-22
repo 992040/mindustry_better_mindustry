@@ -1,0 +1,44 @@
+{
+    "type": "GenericCrafter",
+    "name": "Steel smelter",
+    "description": "Makes steel from iron and graphite",
+    "size": 2,
+    "health": 200,
+    "hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+    "craftTime": 100,
+    "itemCapacity": 20,
+    "consumes": {
+        "power": 1.5,
+        "items": {
+            "items": [
+                { "item": "iron", "amount": 3 },
+                { "item": "graphite", "amount": 1 }
+            ],
+        }
+    },
+    "requirements":[
+        { "item": "copper", "amount": 200 },
+        { "item": "lead", "amount": 300 },
+        { "item": "iron", "amount": 255 },
+        { "item": "metaglass", "amount": 150 },
+        { "item": "titanium", "amount": 215 }
+    ],
+    "outputItem": {
+     "item": "steel", 
+     "amount": 1
+    },
+    "category": "crafting",
+    "research": "melter",
+    "craftEffect": "smeltsmoke",
+    "ambientSound": "smelter",
+    "drawer" : {
+        "type": "drawMulti",
+        "drawers": [
+            {"type":"drawDefault"}, 
+            {"type":"drawFlame","flameColor":"ffef99"}
+        ]
+    }
+
+}

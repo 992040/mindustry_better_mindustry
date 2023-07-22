@@ -1,0 +1,45 @@
+{
+	"type": "powerTurret",
+	"name": "AA-Arc",
+	"hasPower": true,
+    "hasLiquids": true,
+	"shootType": {
+		"type": "LightningBulletType",
+		"lightningLength": 25,
+		"collidesAir": true,
+		"damage": 20,
+        "hitEffect": "hitLancer",
+        "despawnEffect": "none",
+        "status": "shocked",
+		"statusDuration": 10,
+        "hittable": false,
+        "lightColor": "0400ff",
+        "buildingDamageMultiplier": 0.25
+	},
+	"description": "Fires arcs of electricity at air targets.",
+	"targetAir": true,
+	"targetGround": false,
+	"health": 260,
+	"size": 1,
+	"inaccuracy": 0,
+	"recoil": 1,
+	"reload": 35,
+	"shootEffect": "lightningShoot",
+    "shootCone": 40,
+	"rotateSpeed": 50,
+	"range": 90,
+	"requirements": [
+		{ "item": "iron", "amount": 50 },
+		{ "item": "lead", "amount": 50 }
+	],
+	"category": "turret",
+	"shootSound": "spark",
+	"research": "arc",
+	"liquidBoostIntesity": 1,
+    "consumes": {
+    	"power": 3.3,
+    	"coolant": {
+      		"amount": 0.1
+    	}
+    }
+}

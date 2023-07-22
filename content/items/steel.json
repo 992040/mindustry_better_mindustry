@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "Steel",
+	"description": "Just a steel.",
+	"hardness": 1,
+	"cost": 2.0,
+	"color": "7c7b7b"
+}

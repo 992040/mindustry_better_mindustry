@@ -1,0 +1,12 @@
+{
+	"name": "Large lead wall",
+	"description": "Protects structures from enemy projectiles",
+	"type": "Wall",
+	"health": 1360,
+	"size": 2,
+	"requirements": [
+		{ "item": "lead", "amount": 24 }
+	],
+	"category": "defense",
+	"research": "iron-wall"
+}

@@ -1,0 +1,8 @@
+
+    "results": [
+            {"item": "copper", "amount": 85},
+            {"item": "lead", "amount": 85},
+            {"item": "titanium", "amount": 65},
+            {"item": "graphite", "amount": 55},
+            {"item": "iron", "amount": 85}
+        ]

@@ -1,0 +1,12 @@
+{
+	"name": "Large nickel wall",
+	"description": "Protects structures from enemy projectiles",
+	"type": "Wall",
+	"health": 1800,
+	"size": 2,
+	"requirements": [
+		{ "item": "nickel", "amount": 24 }
+	],
+	"category": "defense",
+	"research": "nickel-wall"
+}

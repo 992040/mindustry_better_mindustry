@@ -1,0 +1,9 @@
+"color": "E0FFFF"
+"flammability": 0
+"temperature": -2
+"heatCapacity": 1.5
+"viscosity": 0.2
+"effect": "nitrogen-freezing"
+"name": "Liquid nitrogen",
+"canStayOn": ["water","oil","cryofluid"],
+

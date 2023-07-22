@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "Iron",
+	"description": "Just an ore.",
+	"hardness": 1,
+	"cost": 1.0,
+	"color": "4f3c3c"
+}
